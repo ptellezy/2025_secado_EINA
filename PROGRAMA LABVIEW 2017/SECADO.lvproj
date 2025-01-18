@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="numDecimales--Enum.ctl" Type="VI" URL="../MODBUS_EUROTHERM P116_485/numDecimales--Enum.ctl"/>
 		<Item Name="SECADO_JKI.vi" Type="VI" URL="../SECADO_JKI.vi"/>
+		<Item Name="TEST_Eurotherm.vi" Type="VI" URL="../TEST_Eurotherm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34970.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34970/Agilent 34970.lvlib"/>
@@ -103,24 +105,24 @@
 			<Item Name="Timing_Module Control.ctl" Type="VI" URL="../Timing/Timing_Module Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SECADO_JKI_v1.1" Type="EXE">
+			<Item Name="SECADO_JKI_v1.1.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{9FB7322D-5B6D-448B-8AA9-B167A85E1201}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4533C0BB-5AD0-4852-B22E-F529BE9C6E9A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{10C0DB97-2021-403A-94EB-ED6832D1C3F3}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SECADO_JKI_v1.1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SECADO_JKI_v1.1.2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/BUILDS</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F137B38-50E8-4D42-8FC8-CC662CFCA134}</Property>
-				<Property Name="Bld_version.build" Type="Int">53</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SECADO_JKI_v1.1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/BUILDS/SECADO_JKI_v1.1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">SECADO_JKI_v1.1.2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/BUILDS/SECADO_JKI_v1.1.2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -128,7 +130,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/BUILDS/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0C09C018-61FB-43CB-B9E6-9C5DF755CBF6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA48D8B8-5B41-44BF-9106-F97A4D5BB521}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SECADO_JKI.vi</Property>
@@ -141,7 +143,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universidad de Zaragoza</Property>
 				<Property Name="TgtF_productName" Type="Str">SECADO_v1p0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{792EFECA-1159-4980-8877-BC7A60F47976}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SECADO_JKI_v1.1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SECADO_JKI_v1.1.2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
