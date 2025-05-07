@@ -10,8 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="numDecimales--Enum.ctl" Type="VI" URL="../MODBUS_EUROTHERM P116_485/numDecimales--Enum.ctl"/>
-		<Item Name="SECADO_JKI.vi" Type="VI" URL="../SECADO_JKI.vi"/>
+		<Item Name="SECADO_JKI_v120.vi" Type="VI" URL="../SECADO_JKI_v120.vi"/>
 		<Item Name="TEST_Eurotherm.vi" Type="VI" URL="../TEST_Eurotherm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -82,8 +81,8 @@
 			<Item Name="Address.ctl" Type="VI" URL="../MODBUS_EUROTHERM P116_485/Address.ctl"/>
 			<Item Name="Agilent ReadConfigFile.vi" Type="VI" URL="../Agilent 34970/Agilent ReadConfigFile.vi"/>
 			<Item Name="Ascii_Char.vi" Type="VI" URL="../MODBUS_EUROTHERM P116_485/Ascii_Char.vi"/>
+			<Item Name="calcula.CAUDAL.VOL.vi" Type="VI" URL="../Agilent 34970/calcula.CAUDAL.VOL.vi"/>
 			<Item Name="calcula.HUMEDAD.vi" Type="VI" URL="../Agilent 34970/calcula.HUMEDAD.vi"/>
-			<Item Name="calcula.PRESION.vi" Type="VI" URL="../Agilent 34970/calcula.PRESION.vi"/>
 			<Item Name="Calcula_CRC.vi" Type="VI" URL="../MODBUS_EUROTHERM P116_485/Calcula_CRC.vi"/>
 			<Item Name="elapsedSamplingSecondsModule.vi" Type="VI" URL="../Timing/elapsedSamplingSecondsModule.vi"/>
 			<Item Name="elapsedTotalMinutesModule.vi" Type="VI" URL="../Timing/elapsedTotalMinutesModule.vi"/>
@@ -91,10 +90,11 @@
 			<Item Name="Eurotherm_2023_Module.vi" Type="VI" URL="../MODBUS_EUROTHERM P116_485/Eurotherm_2023_Module.vi"/>
 			<Item Name="File_Module Control.ctl" Type="VI" URL="../File/File_Module Control.ctl"/>
 			<Item Name="File_Module.vi" Type="VI" URL="../File/File_Module.vi"/>
+			<Item Name="numDecimales--Enum.ctl" Type="VI" URL="../MODBUS_EUROTHERM P116_485/numDecimales--Enum.ctl"/>
 			<Item Name="P116x1ch.ctl" Type="VI" URL="../MODBUS_EUROTHERM P116_485/P116x1ch.ctl"/>
 			<Item Name="P116x1ch_WriteManual.vi" Type="VI" URL="../MODBUS_EUROTHERM P116_485/P116x1ch_WriteManual.vi"/>
 			<Item Name="SECADO_calculos.Ensayo--Cluster.ctl" Type="VI" URL="../Typedefs/SECADO_calculos.Ensayo--Cluster.ctl"/>
-			<Item Name="SECADO_calculos.vi" Type="VI" URL="../SECADO_calculos.vi"/>
+			<Item Name="SECADO_calculos_2.vi" Type="VI" URL="../SECADO_calculos_2.vi"/>
 			<Item Name="SECADO_comms--Cluster.ctl" Type="VI" URL="../Typedefs/SECADO_comms--Cluster.ctl"/>
 			<Item Name="SECADO_constantes.Ensayo--Cluster.ctl" Type="VI" URL="../Typedefs/SECADO_constantes.Ensayo--Cluster.ctl"/>
 			<Item Name="SECADO_datos.Ensayo--Cluster.ctl" Type="VI" URL="../Typedefs/SECADO_datos.Ensayo--Cluster.ctl"/>
@@ -119,7 +119,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/BUILDS</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F137B38-50E8-4D42-8FC8-CC662CFCA134}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SECADO_JKI_v1.1.2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/BUILDS/SECADO_JKI_v1.1.2.exe</Property>
@@ -130,10 +130,10 @@
 				<Property Name="Destination[1].path" Type="Path">/C/BUILDS/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FA48D8B8-5B41-44BF-9106-F97A4D5BB521}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE90D45A-8608-4AA1-AC20-0CAE6E97D646}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SECADO_JKI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SECADO_JKI_v120.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
